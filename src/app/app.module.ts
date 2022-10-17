@@ -12,6 +12,9 @@ import { ActionsButtonComponent } from './components/buttons/actions-button/acti
 import { InitialComponent } from './components/sections/initial/initial.component';
 import { AboutComponent } from './components/sections/about/about.component';
 import { StackComponent } from './components/sections/stack/stack.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { HttpClientModule, HttpHeaders } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,9 +27,13 @@ import { StackComponent } from './components/sections/stack/stack.component';
     AboutComponent,
     StackComponent,
     CircleProgressModelComponent,
+    ContactFormComponent,
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    FormsModule,
     NgCircleProgressModule.forRoot({
       radius: 100,
       outerStrokeWidth: 8,

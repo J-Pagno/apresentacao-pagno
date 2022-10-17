@@ -1,0 +1,51 @@
+<form
+  class="contactForm"
+  (ngSubmit)="onSubmit(contactForm)"
+  #contactForm="ngForm"
+>
+  <input
+    type="text"
+    placeholder="Nome"
+    name="name"
+    ngModel
+    required
+    #name="ngModel"
+  />
+
+  <input
+    type="text"
+    placeholder="Empresa"
+    name="company"
+    ngModel
+    required
+    #company="ngModel"
+  />
+
+  <input
+    type="text"
+    placeholder="Telefone"
+    name="phone"
+    ngModel
+    required
+    #phone="ngModel"
+  />
+
+  <input
+    type="text"
+    placeholder="Email para contato"
+    email
+    name="email"
+    ngModel
+    required
+    #email="ngModel"
+  />
+  <textarea
+    placeholder="Assunto"
+    name="messages"
+    ngModel
+    required
+    #messages="ngModel"
+  ></textarea>
+
+  <app-contact-button></app-contact-button>
+</form>
