@@ -1,0 +1,23 @@
+#stack {
+  width: 100%;
+}
+
+.circleProgressContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.circleProgressContainer h2 {
+  width: fit-content;
+  border-bottom: .5px solid #e1e1e1;
+}
+
+.circleProgressGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+  margin: 5px auto;
+}

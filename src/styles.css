@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #e1e1e1;
+  background-image: linear-gradient(to right, #212121, #303030, #424242);
+  margin: 0;
+  padding: 0;
+}

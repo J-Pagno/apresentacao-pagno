@@ -1,0 +1,32 @@
+#banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  height: 95vh;
+  margin: 0;
+}
+
+#banner h1,
+h2 {
+  font-family: "Dancing Script", cursive;
+}
+
+#banner h1 {
+  font-size: 150px;
+}
+
+#videobcg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  z-index: -100;
+  opacity: 0.3;
+  filter: sepia(70%);
+}

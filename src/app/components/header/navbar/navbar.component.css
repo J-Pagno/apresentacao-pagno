@@ -1,0 +1,34 @@
+.navBar {
+  position: absolute;
+  width: 100%;
+}
+
+.navBar .navBrand {
+  text-decoration: none;
+}
+
+.navBar ul {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  z-index: 100;
+
+  list-style-type: none !important;
+  background-image: linear-gradient(to bottom, #1a1a1a, transparent);
+}
+
+.navBar li {
+  display: inline;
+}
+
+.navBar ul li:nth-child(2) {
+  margin: auto 90vh;
+}
+
+.navBar li {
+  margin: 0 5px;
+}
+
+ul li a:hover {
+  color: red!important;
+}
